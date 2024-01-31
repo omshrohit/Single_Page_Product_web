@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap');
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+*{
+    margin:0;
+}
+:root{
+    --red: #D01C28;
+    --gray:#2e2e2e;
+
+}
+.Nav1{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(211, 197, 197);
+    align-items:center;
+    margin:0 auto;
+    max-width:1280px;
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:24px;
+    
+}
+button {
+    all:unset;
+    background:var(--red);
+    height:32px;
+    color: white;
+    padding: 6px 16px;
+    font-weight:500;
+    }
+/* .container{
+    margin:0 auto;
+    max-width:1280px;
+} */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:0 auto;
+    max-width:1280px;
+    height:calc(100vh-72px);
+    
+}
+.hero h1{
+   font-weight:800;
+   line-height:102px;
+   font-size:108px;
+}
+.hero p{
+    font-weight:600;
+    color:var(--gray);
+ }
+ .hero-btn{
+    display: flex;
+    gap:14px;
+ }
+ .hero-logo{
+    display: flex;
+    gap:8px;
+ }
+ .hero-p{
+    display: flex;
+ }
+ .hero-containt{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+ }
+ .hero-image{
+    margin-top:40px;;
+ }
